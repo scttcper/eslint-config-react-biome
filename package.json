@@ -1,0 +1,23 @@
+{
+  "name": "@ctrl/eslint-config-react-biome",
+  "version": "0.0.0-placeholder",
+  "description": "eslint react typescript config",
+  "scripts": {},
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "eslint-config-xo-react": "^0.27.0",
+    "@ctrl/eslint-config-biome": "1.0.4"
+  },
+  "repository": "scttcper/eslint-config-react",
+  "author": "Scott Cooper <scttcper@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "release": {
+    "branches": ["main"]
+  }
+}
