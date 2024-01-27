@@ -10,7 +10,7 @@
     "eslint-config-xo-react": "^0.27.0",
     "@ctrl/eslint-config-biome": "1.0.4"
   },
-  "repository": "scttcper/eslint-config-react",
+  "repository": "scttcper/eslint-config-react-biome",
   "author": "Scott Cooper <scttcper@gmail.com>",
   "license": "MIT",
   "publishConfig": {
