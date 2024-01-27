@@ -1,6 +1,7 @@
 module.exports = {
   extends: ['xo-react/space', '@ctrl/eslint-config-biome'],
   rules: {
+    'jsx-quotes': 'off',
     'react/jsx-tag-spacing': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-indent-props': 'off',
