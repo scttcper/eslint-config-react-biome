@@ -8,5 +8,6 @@ module.exports = {
     'react/no-unescaped-entities': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/prefer-read-only-props': 'off',
+    'object-curly-newline': 'off',
   },
 };
