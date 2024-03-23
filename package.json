@@ -8,7 +8,7 @@
   ],
   "dependencies": {
     "eslint-config-xo-react": "^0.27.0",
-    "@ctrl/eslint-config-biome": "^2.1.1"
+    "@ctrl/eslint-config-biome": "^2.1.2"
   },
   "repository": "scttcper/eslint-config-react-biome",
   "author": "Scott Cooper <scttcper@gmail.com>",

@@ -9,5 +9,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'react/prefer-read-only-props': 'off',
     'object-curly-newline': 'off',
+    // Conflicts with formatting
+    'react/jsx-curly-newline': 'off',
   },
 };
