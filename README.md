@@ -5,7 +5,7 @@ Not really a shareable eslint config, more of a set of rules and eslint all toge
 Extends from [xo](https://github.com/xojs/eslint-config-xo) and [xo-typescript](https://github.com/xojs/eslint-config-xo-typescript) and disables a few rules. Config uses 2 space indentation.
 
 ```sh
-npm i @ctrl/eslint-config-react-biome -D
+npm i -D @ctrl/eslint-config-biome @ctrl/eslint-config-react-biome eslint-plugin-react
 ```
 
 .eslintrc

@@ -7,8 +7,11 @@
     "index.js"
   ],
   "dependencies": {
-    "eslint-config-xo-react": "^0.27.0",
-    "@ctrl/eslint-config-biome": "^2.1.2"
+    "eslint-config-xo-react": "^0.27.0"
+  },
+  "peerDependencies": {
+    "@ctrl/eslint-config-biome": "^2.1.3",
+    "eslint-plugin-react": ">=7.29.0"
   },
   "repository": "scttcper/eslint-config-react-biome",
   "author": "Scott Cooper <scttcper@gmail.com>",
