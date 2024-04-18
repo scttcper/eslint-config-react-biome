@@ -86,14 +86,6 @@ module.exports = {
     "react/jsx-curly-spacing": ["error", "never"],
     "react/jsx-equals-spacing": ["error", "never"],
     "react/jsx-first-prop-new-line": "error",
-    "react/jsx-key": [
-      "error",
-      {
-        checkFragmentShorthand: true,
-        checkKeyMustBeforeSpread: true,
-        warnOnDuplicates: true,
-      },
-    ],
     "react/jsx-max-props-per-line": [
       "error",
       {
