@@ -22,7 +22,6 @@ module.exports = {
         validateNested: true,
       },
     ],
-    "react/jsx-child-element-spacing": "error",
     "react/default-props-match-prop-types": "error",
     "react/function-component-definition": [
       "error",
@@ -75,24 +74,6 @@ module.exports = {
         ],
       },
     ],
-    "react/jsx-closing-bracket-location": [
-      "error",
-      {
-        nonEmpty: "tag-aligned",
-        selfClosing: false,
-      },
-    ],
-    "react/jsx-closing-tag-location": "error",
-    "react/jsx-curly-spacing": ["error", "never"],
-    "react/jsx-equals-spacing": ["error", "never"],
-    "react/jsx-first-prop-new-line": "error",
-    "react/jsx-max-props-per-line": [
-      "error",
-      {
-        maximum: 3,
-        when: "multiline",
-      },
-    ],
     "react/jsx-no-bind": [
       "error",
       {
@@ -102,19 +83,8 @@ module.exports = {
     "react/jsx-no-constructed-context-values": "error",
     "react/jsx-no-script-url": "error",
     "react/jsx-no-undef": "error",
-    // Disabled for now as it produces too many errors
-    // 'react/jsx-one-expression-per-line': ['error', {allow: 'single-child'}],
-    "react/jsx-curly-brace-presence": [
-      "error",
-      {
-        props: "never",
-        children: "never",
-        propElementValues: "always",
-      },
-    ],
     "react/jsx-fragments": ["error", "syntax"],
     "react/jsx-pascal-case": "error",
-    "react/jsx-props-no-multi-spaces": "error",
     "react/jsx-sort-props": [
       "error",
       {
@@ -126,17 +96,5 @@ module.exports = {
     ],
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
-    "react/jsx-wrap-multilines": [
-      "error",
-      {
-        declaration: "parens-new-line",
-        assignment: "parens-new-line",
-        return: "parens-new-line",
-        arrow: "parens-new-line",
-        condition: "ignore",
-        logical: "ignore",
-        prop: "ignore",
-      },
-    ],
   },
 };
